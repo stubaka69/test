@@ -1,6 +1,6 @@
 % Metódy inžinierskej práce
 
-\documentclass[10pt,twoside,slovak,a4paper]{article}
+\documentclass[10pt,twoside,slovak,a4paper]{coursepaper}
 
 \usepackage[slovak]{babel}
 %\usepackage[T1]{fontenc}
@@ -15,12 +15,12 @@
 
 \pagestyle{headings}
 
-\title{Názov\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2015/16, vedenie: Meno Priezvisko}} % meno a priezvisko vyučujúceho na cvičeniach
+\title{Moderná kontrola kódu (code review)\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2015/16, vedenie: Meno Priezvisko}} % meno a priezvisko vyučujúceho na cvičeniach
 
-\author{Meno Priezvisko\\[2pt]
+\author{Jakub Kožányi\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
 	{\small Fakulta informatiky a informačných technológií}\\
-	{\small \texttt{...@stuba.sk}}
+	{\small \texttt{xkozanyi@stuba.sk}}
 	}
 
 \date{\small 30. september 2015} % upravte
@@ -32,9 +32,18 @@
 \maketitle
 
 \begin{abstract}
-\ldots
+Code review je bežný softvérový inžiniersky postup implementovaný v open source formách a v priemyselných kontextoch. Praktizuje sa ako inšpekcia zdrojového kódu a je to užitočný nástroj na redukovanie softwárových defektov a jeho zlepšenia. Kontrola kódu je dnes menej formálna a jednoduchšia, ako kontroly kódu a štúdia zo sedemdesiatych a osemdesiatych rokov. Sústredím sa na empirické skúmanie motivácie, výzvy a výsledkov nástrojov na kontrolu kódu. Na základe rozhovorov a prieskumov medzi vývojármi a manažérmi sa pokúsim upresniť podstatu a význam kontroly kódu, či už je hlavnou motiváciou hľadanie defektov v kóde alebo hľadanie lepšieho spôsobu. 
+
+\includegraphics[scale=0.6]{diagramx.png}
 \end{abstract}
 
+\section{Jakub}
+\input{jakub}
+
+
+\section{Rick and Morty}
+
+Rick Rick Rick Rick Rick Rick
 
 
 \section{Úvod}
@@ -54,7 +63,7 @@ Z obr.~\ref{f:rozhod} je všetko jasné.
 
 \begin{figure*}[tbh]
 \centering
-\includegraphics[scale=1.0]{diagram.pdf.png}
+\includegraphics[scale=0.5]{diagram.pdf.png}
 Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
 \caption{Rozhodujúci argument.}
 \label{f:rozhod}
@@ -120,5 +129,5 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 
 % týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
 \bibliography{literatura}
-\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\bibliographystyle{alpha} % prípadne alpha, abbrv alebo hociktorý iný
 \end{document}
