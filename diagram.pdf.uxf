@@ -1,0 +1,6 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLUseCase</id><coordinates><x>1510</x><y>460</y><w>120</w><h>40</h></coordinates><panel_attributes>Use case 1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>70</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>40</x><y>140</y><w>120</w><h>40</h></coordinates><panel_attributes>Voda
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>90</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=.&gt;
+to to je diagram
+</panel_attributes><additional_attributes>130;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>30</y><w>100</w><h>30</h></coordinates><panel_attributes>Oblaky
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
